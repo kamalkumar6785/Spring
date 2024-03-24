@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyAspect {
 
-    @Around("execution(* task4.ques4.assignment.Sum.sum())")
+    @Around("execution(* task4.ques4.assignment.Mult.Mult())")
     public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
         long startTime = System.currentTimeMillis();
 

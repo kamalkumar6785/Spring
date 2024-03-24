@@ -2,10 +2,6 @@ package task2.ques2.assignment;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )

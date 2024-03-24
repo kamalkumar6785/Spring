@@ -4,15 +4,17 @@ import java.util.*;
 
 public class map {
 
-	private HashMap<String, Integer> map = new HashMap<>();
+	private HashMap<String, String> map = new HashMap<>();
 	
-	public map(HashMap<String, Integer> map){
+	public map(HashMap<String, String> map){
 		this.map = map;
 	}
 	
-	public void print() {
-		for(Map.Entry<String, Integer> e : map.entrySet()) {
-			System.out.println(e.getKey() + " " + e.getValue());
+	public void print() 
+	{
+
+		for(Map.Entry<String, String> i : map.entrySet()) {
+			System.out.println(i.getKey() + " " + i.getValue());
 		}
 	}
 }

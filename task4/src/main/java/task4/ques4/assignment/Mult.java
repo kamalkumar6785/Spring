@@ -1,7 +1,7 @@
 package task4.ques4.assignment;
 
 
-public class Sum {
+public class Mult {
 	
 	private int num1;
 	private int num2;
@@ -19,8 +19,8 @@ public class Sum {
 		this.num2 = num2;
 	}
 	
-	public void sum() {
-		System.out.println("Sum of two numbers : " + (num1 + num2));
+	public void Mult() {
+		System.out.println("Multiplication of two numbers : " + (num1 * num2));
     }
 
 }

@@ -10,7 +10,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @ComponentScan(basePackages = {"task4.ques4.assignment","service"})
 public class AppConfig {
     @Bean
-    public Sum sum() {
-    	return new Sum();
+    public Mult mult() {
+    	return new Mult();
     }
 }

@@ -12,7 +12,7 @@ public class TriangleConfig{
 	@Bean
     public Triangle triangle() {
 		// setting base and height of the triangle
-        return new Triangle(10, 14);
+        return new Triangle(5, 14);
     }
 	
 }

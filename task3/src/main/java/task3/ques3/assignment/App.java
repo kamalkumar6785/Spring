@@ -5,10 +5,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.ApplicationContext;
 
-/**
- * Hello world!
- *
- */
+
 
 @Component
 public class App 
@@ -26,7 +23,7 @@ public class App
         ApplicationContext context = new AnnotationConfigApplicationContext(TriangleConfig.class);
         
         App obj = context.getBean(App.class);
-        System.out.println("Area of the triangle : " + obj.triangle.calculateArea());
+        System.out.println("Area of the triangle is : " + obj.triangle.calculateArea() + " sq unit");
     }
 }
 

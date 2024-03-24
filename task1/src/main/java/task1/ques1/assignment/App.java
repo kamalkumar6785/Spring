@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class App {
     public static void main(String[] args) {
         // Printing task information
-        System.out.println("Task 1 :: ");
+        System.out.println("Task 1  ");
         
         // Creating the Spring application context
         ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
